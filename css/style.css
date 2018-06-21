@@ -2,25 +2,36 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
 }
 
 .container {
 	width: 1200px;
 }
 
-[class*="row"] {
-
-}
-
 [class*="width-1"] {
 	width: 50%;
 	height: 150px;
-
+	float: left;
 }
 
-.width-1-1 {
-	
+.row-1 {height: 150px;}
+.row-2 {height: 320px;}
+.row-3 {height: 195px;}
+.row-4 {height: 145px;}
+
+.width-2-1 {
+	width: 50%;
+	height: 320px;
+}
+
+.width-2-2 div {
+	display: inline-block;
+}
+
+[class*="width-2"] { 
+	width: 30%;
+	/*float: left;*/
+}	
 
 
 
